@@ -1,0 +1,47 @@
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.pdb
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.pdb
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Core.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Data Access.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Core.pdb
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Data Access.pdb
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.xml
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.dll.config
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business_Logic.Migrations.InitialCreate.resources
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.csproj.GenerateResource.Cache
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.dll.config
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.pdb
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Core.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Data Access.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Core.pdb
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Data Access.pdb
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.xml
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.csprojResolveAssemblyReference.cache
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.pdb
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.dll.config
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Business Logic.pdb
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Core.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Data Access.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Core.pdb
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Data Access.pdb
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.xml
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.pdb
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Core.dll.config
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\bin\Debug\Data Access.dll.config
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Business Logic\obj\Debug\Business Logic.csproj.CoreCompileInputs.cache

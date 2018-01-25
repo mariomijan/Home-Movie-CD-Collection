@@ -1,0 +1,38 @@
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.dll.config
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.pdb
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Core.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Core.pdb
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.xml
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.dll
+C:\Users\Mario\Desktop\HomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.pdb
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.dll.config
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.pdb
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Core.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.SqlServer.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Core.pdb
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.xml
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.SqlServer.xml
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.csprojResolveAssemblyReference.cache
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.dll
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.pdb
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.dll.config
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Data Access.pdb
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Core.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Core.pdb
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.xml
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.dll
+C:\Users\Mario\Desktop\MyHomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.pdb
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\bin\Debug\Core.dll.config
+C:\Mario Mijan\Projects\MyHomeCollectionEntityFramework_code_first\Data Access\obj\Debug\Data Access.csproj.CoreCompileInputs.cache
