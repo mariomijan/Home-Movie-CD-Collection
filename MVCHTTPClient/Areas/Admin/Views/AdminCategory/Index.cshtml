@@ -1,0 +1,54 @@
+﻿@model MVCHTTPClient.Models.CollectionViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Category</h2>
+@*@foreach (var item in Model.users)
+    {
+        <p>
+            @Html.ActionLink(linkText: "Create New",
+                                               actionName: "Create",
+                                               controllerName: "AdminCategory",
+                                               routeValues: new { ID = item.ID },
+                                               htmlAttributes: new { @class = "icon-1 info-tooltip", @Title = "Edit" })
+        </p>*@
+
+<p>@Html.ActionLink("Create New", "Create")</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </th>
+        <th>
+            <label>User Id</label>
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Categories)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.ID)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+</table>
+
+
+
+
+
+
+
+
+

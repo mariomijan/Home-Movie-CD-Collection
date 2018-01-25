@@ -1,0 +1,73 @@
+﻿@model MVCHTTPClient.Models.CollectionViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Edit", "AdminCd", FormMethod.Post,
+                                                                                                                                                                                          new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <h4>Cd</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cd.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Cd.Description, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Cd.Description, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.Cd.ID)
+            </div>
+        </div>
+
+        @*@Html.HiddenFor(model => model.Cd.ID)*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cd.Image, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @* Upload *@
+                <input type="file" name="file" id="file" />
+                @Html.ValidationMessageFor(model => model.Cd.Image, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-10">
+                <img src='@Url.Content(Model.Cd.Image)' width="200" />
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label class="control-label col-md-2">Select Genre</label>
+            <div class="col-md-10">
+                @* DropDown *@
+                <select name="listbox" id="listbox" class="form-control">
+                    @foreach (var item in Model.Genres)
+                    {
+                        <option value="@item.ID">
+                            @item.Name
+                        </option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cd.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Cd.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Cd.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

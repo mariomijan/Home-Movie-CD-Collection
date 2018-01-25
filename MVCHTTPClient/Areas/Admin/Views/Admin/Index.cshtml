@@ -1,0 +1,23 @@
+﻿@model MVCHTTPClient.Models.CollectionViewModel
+
+@{
+    ViewBag.Title = "Index";
+    
+}
+
+<h2>Welcome @Model.User.Name</h2><br />
+
+
+
+<h3><a href="@Url.Action("Index", "AdminCategory")">Categories</a></h3>
+
+<h3><a href="@Url.Action("Index", "AdminMovie")">Movies</a></h3>
+
+<h3><a href="@Url.Action("Index", "AdminGenre")">Genres</a></h3>
+
+<h3><a href="@Url.Action("Index", "AdminCd")">Cd's</a></h3>
+
+
+
+
+

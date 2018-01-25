@@ -1,0 +1,48 @@
+﻿@model MVCHTTPClient.Models.CollectionViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Cd</h2>
+<p>@Html.ActionLink("Create New", "Create")</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cd.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cd.Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cd.Name)
+        </th>
+        <th>
+            <label>User ID</label>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.Cds) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            <img src='@Url.Content(item.Image)' width="60" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.ID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>
