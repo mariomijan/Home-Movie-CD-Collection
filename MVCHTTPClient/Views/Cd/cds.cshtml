@@ -1,0 +1,32 @@
+﻿@model MVCHTTPClient.Models.CollectionViewModel
+
+@{
+    ViewBag.Title = "cds";
+}
+
+<h2>@Model.Genre.Name</h2><br />
+@foreach (var cd in Model.Cds)
+{
+    <table class="ContentTables">
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <img src='@Url.Content(cd.Image)' width="70" />
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        <strong>@Url.Content(cd.Name)</strong>
+                    </li>
+                    <li>
+                        <i>@Url.Content(cd.Description)</i>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+}
+

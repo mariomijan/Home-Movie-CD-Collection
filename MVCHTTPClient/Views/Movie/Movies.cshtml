@@ -1,0 +1,30 @@
+﻿@model MVCHTTPClient.Models.CollectionViewModel
+
+@{
+    ViewBag.Title = "Movies";
+
+}
+
+<h2>@Model.Category.Name</h2><br />
+@foreach (var movie in Model.Movies)
+{
+    <table class="ContentTables">
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        <img src='@Url.Content(movie.Image)' width="70" />
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        <strong>@movie.Name</strong>
+                    </li>
+                    <li><i>@movie.Description</i></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+}

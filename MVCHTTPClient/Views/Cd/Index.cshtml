@@ -1,0 +1,25 @@
+﻿@using MVCHTTPClient.CdReference
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Select genre</h2><br />
+@foreach (var genre in Model)
+{
+    <table class="ContentTables">
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        @Html.ActionLink(linkText: (string)genre.Name,
+        actionName: "Cds",
+        controllerName: "Cd",
+        routeValues: new { ID = genre.ID },
+        htmlAttributes: new { @class = "icon-1 info-tooltip", @Title = "Edit" })
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+}

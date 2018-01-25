@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CdService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Core" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICdService_AddCd_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddCd" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_AddCd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddCdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_UpdateCd_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCd" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_UpdateCd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_GetCd_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCd" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_GetCd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_GetAllCds_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCds" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_GetAllCds_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_DeleteCd_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCd" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_DeleteCd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_GetAllCdsByGenre_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCdsByGenre" />
+  </wsdl:message>
+  <wsdl:message name="ICdService_GetAllCdsByGenre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCdsByGenreResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICdService">
+    <wsdl:operation name="AddCd">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICdService/AddCd" message="tns:ICdService_AddCd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICdService/AddCdResponse" message="tns:ICdService_AddCd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCd">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICdService/UpdateCd" message="tns:ICdService_UpdateCd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICdService/UpdateCdResponse" message="tns:ICdService_UpdateCd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCd">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICdService/GetCd" message="tns:ICdService_GetCd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICdService/GetCdResponse" message="tns:ICdService_GetCd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCds">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICdService/GetAllCds" message="tns:ICdService_GetAllCds_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICdService/GetAllCdsResponse" message="tns:ICdService_GetAllCds_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCd">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICdService/DeleteCd" message="tns:ICdService_DeleteCd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICdService/DeleteCdResponse" message="tns:ICdService_DeleteCd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCdsByGenre">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICdService/GetAllCdsByGenre" message="tns:ICdService_GetAllCdsByGenre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICdService/GetAllCdsByGenreResponse" message="tns:ICdService_GetAllCdsByGenre_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICdService" type="tns:ICdService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddCd">
+      <soap:operation soapAction="http://tempuri.org/ICdService/AddCd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCd">
+      <soap:operation soapAction="http://tempuri.org/ICdService/UpdateCd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCd">
+      <soap:operation soapAction="http://tempuri.org/ICdService/GetCd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCds">
+      <soap:operation soapAction="http://tempuri.org/ICdService/GetAllCds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCd">
+      <soap:operation soapAction="http://tempuri.org/ICdService/DeleteCd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCdsByGenre">
+      <soap:operation soapAction="http://tempuri.org/ICdService/GetAllCdsByGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CdService">
+    <wsdl:port name="BasicHttpBinding_ICdService" binding="tns:BasicHttpBinding_ICdService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/HomeCollection/Service4/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

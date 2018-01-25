@@ -1,0 +1,29 @@
+﻿@using MVCHTTPClient.MovieReference
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>Select category</h2><br />
+@foreach (var category in Model)
+{
+    <table class="ContentTables">
+        <tr>
+            <td>
+                <ul>
+                    <li>
+                        
+                        @Html.ActionLink(linkText: (string)category.Name,
+                                actionName: "Movies",
+                                controllerName: "Movie",
+                                routeValues: new { ID = category.ID },
+                                htmlAttributes: new { @class = "icon-1 info-tooltip", @Title = "Edit" })
+
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+}
